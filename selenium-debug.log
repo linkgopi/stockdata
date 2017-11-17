@@ -1,0 +1,60 @@
+00:17:18.983 INFO - Selenium build info: version: '3.7.1', revision: '8a0099a'
+00:17:18.983 INFO - Launching a standalone Selenium Server
+2017-11-14 00:17:19.010:INFO::main: Logging initialized @295ms to org.seleniumhq.jetty9.util.log.StdErrLog
+00:17:19.065 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:17:19.110 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities {browserName: internet explorer, ensureCleanSession: true, platform: WINDOWS, version: } does not match the current platform MAC
+00:17:19.110 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: } does not match the current platform MAC
+00:17:19.160 INFO - Using the passthrough mode handler
+2017-11-14 00:17:19.190:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-11-14 00:17:19.218:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@ea1a8d5{/,null,STARTING} has uncovered http methods for path: /
+2017-11-14 00:17:19.224:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@ea1a8d5{/,null,AVAILABLE}
+2017-11-14 00:17:19.256:INFO:osjs.AbstractConnector:main: Started ServerConnector@5b6c34b1{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-11-14 00:17:19.257:INFO:osjs.Server:main: Started @543ms
+00:17:19.258 INFO - Selenium Server is up and running
+2017-11-14 00:17:19.483:INFO:osjshC.ROOT:qtp1869997857-10: org.openqa.selenium.remote.server.WebDriverServlet-6fc6f14e: Initialising WebDriverServlet
+00:17:19.536 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@2d04dad1
+00:17:19.540 INFO - /session: Executing POST on /session (handler: BeginSession)
+00:17:19.623 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, chromeOptions: {args: [--ignore-certificate-errors, --ignore-ssl-errors, --start-maximized, --disable-web-security]}, javascriptEnabled: true, name: Dashboard}
+00:17:19.625 INFO - Capabilities {acceptSslCerts: true, browserName: chrome, chromeOptions: {args: [--ignore-certificate-errors, --ignore-ssl-errors, --start-maximized, --disable-web-security]}, javascriptEnabled: true, name: Dashboard} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 38288
+Only local connections are allowed.
+00:17:20.756 INFO - Detected dialect: OSS
+00:17:21.231 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:21.231 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing POST on /session/0d1561b3beba74f79c5f86a25f618351/url (handler: ServicedSession)
+00:17:21.234 INFO - To upstream: {"url":"https://www.marketwatch.com/investing/cryptocurrency/btcusd"}
+00:17:29.226 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":null}
+00:17:29.240 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.241 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing POST on /session/0d1561b3beba74f79c5f86a25f618351/elements (handler: ServicedSession)
+00:17:29.243 INFO - To upstream: {"using":"css selector","value":".company__name"}
+00:17:29.279 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":[{"ELEMENT":"0.9766779781924388-1"}]}
+00:17:29.285 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.285 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing GET on /session/0d1561b3beba74f79c5f86a25f618351/element/0.9766779781924388-1/displayed (handler: ServicedSession)
+00:17:29.314 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":true}
+00:17:29.322 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.322 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing POST on /session/0d1561b3beba74f79c5f86a25f618351/element (handler: ServicedSession)
+00:17:29.324 INFO - To upstream: {"using":"css selector","value":".company__name"}
+00:17:29.369 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":{"ELEMENT":"0.9766779781924388-1"}}
+00:17:29.373 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.373 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing GET on /session/0d1561b3beba74f79c5f86a25f618351/element/0.9766779781924388-1/text (handler: ServicedSession)
+00:17:29.404 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":"Bitcoin USD"}
+00:17:29.412 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.413 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing POST on /session/0d1561b3beba74f79c5f86a25f618351/elements (handler: ServicedSession)
+00:17:29.414 INFO - To upstream: {"using":"css selector","value":"[field=\"Last\"]"}
+00:17:29.444 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":[{"ELEMENT":"0.9766779781924388-2"}]}
+00:17:29.447 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.447 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing GET on /session/0d1561b3beba74f79c5f86a25f618351/element/0.9766779781924388-2/displayed (handler: ServicedSession)
+00:17:29.470 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":true}
+00:17:29.475 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.475 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing POST on /session/0d1561b3beba74f79c5f86a25f618351/element (handler: ServicedSession)
+00:17:29.476 INFO - To upstream: {"using":"css selector","value":"[field=\"Last\"]"}
+00:17:29.503 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":{"ELEMENT":"0.9766779781924388-2"}}
+00:17:29.506 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.506 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing GET on /session/0d1561b3beba74f79c5f86a25f618351/element/0.9766779781924388-2/attribute/value (handler: ServicedSession)
+00:17:29.514 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":null}
+00:17:29.522 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.522 INFO - Handler thread for session 0d1561b3beba74f79c5f86a25f618351 (chrome): Executing DELETE on /session/0d1561b3beba74f79c5f86a25f618351 (handler: ServicedSession)
+00:17:29.631 INFO - To downstream: {"sessionId":"0d1561b3beba74f79c5f86a25f618351","status":0,"value":null}
+00:17:29.638 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@4bff2e87
+00:17:29.652 INFO - To downstream: {"sessionId":"","status":0,"value":null}

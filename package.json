@@ -1,0 +1,17 @@
+{
+  "name": "nightwatch-test",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-e2e": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "gulp": "3.8.11",
+    "gulp-nightwatch": "^0.3.2",
+    "nightwatch": "^0.9.16"
+  }
+}
